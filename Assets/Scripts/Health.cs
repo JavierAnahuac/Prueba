@@ -10,6 +10,7 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
+        Debug.Log(maxHealth);
         currentHealth = maxHealth;
     }
 
