@@ -11,6 +11,8 @@ public class Health : MonoBehaviour
     private void Start()
     {
         Debug.Log(maxHealth);
+        Debug.Log(currentHealth); 
+        Debug.Log(maxHealth+ currentHealth);
         currentHealth = maxHealth;
     }
 
