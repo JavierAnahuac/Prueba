@@ -11,7 +11,6 @@ public class Health : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
-        currentHealth = maxHealth;
     }
 
     public void TakeDamage(int _damage)
